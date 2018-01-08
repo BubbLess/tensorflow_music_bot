@@ -19,7 +19,7 @@ def get_songs(path):
             raise e           
     return songs
 
-songs = get_songs('piano0') #存放数据集的文件夹
+songs = get_songs('piano0') #选择存放数据集的文件夹
 print ("{} songs processed".format(len(songs)))
 
 
